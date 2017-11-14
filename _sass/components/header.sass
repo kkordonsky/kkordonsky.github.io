@@ -18,16 +18,27 @@
             opacity: .8
 
     > .title
-        font-size: 4rem
+        font-size: 3rem
         margin: 0 0 13px
+
+        @media(min-width:768px)
+            font-size: 4rem
+
+    > ul
+        list-style: none
+        padding: 0
+        text-align: left
 
     > .description
         font-size: 1.85rem
         font-weight: 300
         font-style: normal
         color: $gama
-        width: 70%
+        width: 75%
         margin: 0 auto 30px
+
+        @media(min-width:768px)
+            width: 50%
 
         // if you put some links in your bio. ;)
         a

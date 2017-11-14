@@ -13,11 +13,13 @@ layout: compress
     <meta name=author content="{{ site.name }}">
 
     {% seo %}
-    
+
     {% include favicon.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <script src="https://use.fontawesome.com/c7c2e06678.js"></script>
 
     <style>
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
@@ -27,8 +29,9 @@ layout: compress
 </head>
 <body>
 
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.tag %}
+    <!-- <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}"> -->
+    <div class="wrapper-large">
+              {% if page.tag %}
             <div class="post">
         {% else %}
             {% if showHeader != true %}

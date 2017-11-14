@@ -29,7 +29,7 @@ h4
 
 a
 	color: $delta
-	text-decoration: underline
+	text-decoration: none
 
 p
 	line-height: 1.7
@@ -127,7 +127,67 @@ pre
 		width: 88%
 
 .wrapper-normal
-	max-width: 560px
+	width: 560px
 
 .wrapper-large
 	max-width: 810px
+
+.contact-info
+	@media(min-width:768px)
+		margin: 0 auto
+		width: 55%
+
+	@media(min-width:1024px)
+		width: 45%
+
+.contact-items .fa
+	float: left
+	color: $delta
+	font-size: 20px
+
+.contact-items .contact-text
+	display: inline-block
+	margin: 0 15px 15px
+	font-size: 12px
+
+	@media(min-width:768px)
+		font-size: 16px
+
+.teaching-list
+	width: 90%
+	margin: 0 auto
+
+	@media(min-width:768px)
+		width: 75%
+
+.teaching-list ul
+	padding-left: 20px
+
+	@media(min-width:768px)
+		padding-left: 40px
+
+.teaching-list li
+	color: $delta
+
+.teaching-list p
+	color: #666
+	line-height: 1
+	margin-bottom: 0
+
+.no-bold
+	font-weight: 300
+
+.page-header
+	text-align: center
+	margin-bottom: 50px
+	font-size: 2.5rem
+
+	@media(min-width:768px)
+		font-size: 3rem
+
+.paper-excerpt
+	margin: 50px 0
+
+.paper-excerpt p
+	text-align: justify
+	color: #aaa
