@@ -8,7 +8,7 @@ description: A portfolio page
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/kseniaprofile.jpg
+picture: /assets/images/kseniaprofile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -16,8 +16,8 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-# url: https://kseniakordonsky.com
-your url: http://kkordonsky.github.io
+url: http://kseniakordonsky.com
+# your url: http://kkordonsky.github.io
 
 permalink: /:title/
 
@@ -100,5 +100,5 @@ plugins:
   - jekyll-feed
   - jemoji
 
-jekyll-mentions:
-    base_url: https://github.com
+#jekyll-mentions:
+#    base_url: https://github.com
