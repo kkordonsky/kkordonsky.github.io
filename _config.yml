@@ -16,8 +16,8 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://kseniakordonsky.com
-# your url: http://USERNAME.github.io
+# url: https://kseniakordonsky.com
+your url: http://kkordonsky.github.io
 
 permalink: /:title/
 
